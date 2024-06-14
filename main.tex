@@ -19,23 +19,12 @@
 \usepackage{tabularx}
 \usepackage{hyphenat}
 \usepackage{fontawesome}
+\usepackage[margin=0.75in]{geometry}
 \input{glyphtounicode}
 
 
-%---------- FONT OPTIONS ----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+\fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -70,7 +59,6 @@
   }
 }
 
-
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -79,14 +67,12 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-
 \newcommand{\resumeSubSubheading}[2]{
-    \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
 }
-
 
 \newcommand{\resumeEducationHeading}[6]{
   \vspace{-2pt}\item
@@ -97,14 +83,12 @@
     \end{tabular*}\vspace{-5pt}
 }
 
-
 \newcommand{\resumeProjectHeading}[2]{
-    \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
 }
-
 
 \newcommand{\resumeOrganizationHeading}[4]{
   \vspace{-2pt}\item
@@ -120,47 +104,25 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{document}
 
 %---------- HEADING ----------
-
 \begin{center}
-    \textbf{\Huge \scshape Aryan Gupta} \\ \vspace{3pt}
-    \small
-    \faMobile \hspace{.5pt} \href{tel:6023267916}{+1 (602)326-7916}
-    $|$
-    \faAt \hspace{.5pt} \href{mailto:aryan.gupta.careers@gmail.com}{aryan.gupta.careers@gmail.com}
-    $|$
-    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/agupt295}{LinkedIn}
-    $|$
-    \faGithub \hspace{.5pt} \href{https://github.com/agupt295}{GitHub}
+  \textbf{\Huge \scshape Aryan Gupta} \\ \vspace{3pt}
+  \small
+  \faMobile \hspace{.5pt} \href{tel:6023267916}{+1 (602)326-7916}
+  $|$
+  \faAt \hspace{.5pt} \href{mailto:aryan.gupta.careers@gmail.com}{aryan.gupta.careers@gmail.com}
+  $|$
+  \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/agupt295}{LinkedIn}
+  $|$
+  \faGithub \hspace{.5pt} \href{https://github.com/agupt295}{GitHub}
 \end{center}
-
-
-
-% %----------- EDUCATION -----------
-
-% \section{Education}
-%   \resumeSubHeadingListStart
-%     \resumeEducationHeading
-%       {University of Illinois Urbana-Champaign}{Tempe, Arizona}
-%       {M.CS. in Computer Science;   \textbf{GPA: 3.96/4.00}}{Aug 2024 \textbf{--} Dec 2025}
-%       {Minor Degree in Computer Science; \textbf{GPA: 3.58/4.00}}{Oct 2020 \textbf{--} Jun 2023}
-%   \resumeSubHeadingListEnd
-
-%   \resumeSubHeadingListStart
-%     \resumeEducationHeading
-%       {Arizona State University}{Tempe, Arizona}
-%       {B.S. in Computer Science;   \textbf{GPA: 3.96/4.00}}{Aug 2020 \textbf{--} May 2024}
-%       {Minor Degree in Computer Science; \textbf{GPA: 3.58/4.00}}{Oct 2020 \textbf{--} Jun 2023}
-%   \resumeSubHeadingListEnd
 
 %----------- EDUCATION -----------
 \section{Education}
@@ -180,11 +142,8 @@
     {B.S. in Computer Science; \textbf{GPA: 3.96/4.00}}{Aug 2020 -- May 2024}
 \resumeSubHeadingListEnd
 
-
 %----------- SKILLS -----------
-
 \section{Skills}
-  % \vspace{2pt}
   \resumeSubHeadingListStart
     \small{\item{
       \textbf{Languages:}{ Java, JavaScript, Python, Swift, C/C++, C\#, SQL } \\ \vspace{3pt}
@@ -197,30 +156,29 @@
 %----------- EXPERIENCE -----------
 
 \section{Work Experience}
-  % \vspace{1pt}
   \resumeSubHeadingListStart
 
     \resumeSubheading
       {Arizona State University}{Tempe, Arizona}
       {Academic Success Tutor}{Sept 2023 \textbf{--} May 2024}
         \resumeItemListStart
-            \resumeItem{Instructed 1000+ students to review introductory \& advanced course concepts \& improve students study strategies.}
-            \resumeItem{Prepared study materials on Java: DS Algo \& Java-FX, Math: Calculus-I \& Calculus-II \& Science: Physics concepts.}
-            \resumeItem{Monitored 100+ review sessions based on Programming to prepare students for assignments, exams \& class projects.}
+          \resumeItem{Prepared study materials on Java: DS Algo, Math: Calculus-I \& Calculus-II \& Science: Physics concepts.}
+          \resumeItem{Monitored 100+ review sessions based on Programming to prepare students for assignments \& class projects.}
+          \resumeItem{Instructed 1000+ students to review introductory \& advanced course concepts \& improve students study strategies.}
         \resumeItemListEnd
 
     \resumeSubheading
       {Siemens EDA}{Noida, Uttar Pradesh, India}
-      {Software Developer Engineer Intern}{May 2023 \textbf{--} Aug 2023, Full-time}
+      {Software Development Engineer Intern}{May 2023 \textbf{--} Aug 2023, Full-time}
         \resumeItemListStart
-            \resumeItem{Developed a PyQt app, providing users with better data exploration capabilities, reducing analysis time spent by 30.}
-            \resumeItem{Analyzed Matplotlib to create 10+ graphs, NumPy \& SciPy to perform 50+ mathematical operations on the AXI data.}
-            \resumeItem{Enabled users to compare \& save plots to make Debugging AXI Stream efficient, reducing the debugging time by 34.}
+          \resumeItem{Developed PyQt app, providing users with better data exploration capabilities, reducing analysis time spent by 30\%.}
+          \resumeItem{Analyzed Matplotlib to create 10+ graphs, NumPy \& SciPy to perform 50+ mathematical operations on the AXI data.}
+          \resumeItem{Enabled users to compare \& save plots to make Debugging AXI Stream efficient, reducing the debugging time by 34\%.}
         \resumeItemListEnd
 
     \resumeSubheading
       {Appture Technology}{Jaipur, Rajasthan, India- Online}
-      {Full Stack Software Developer Intern}{May 2023 \textbf{--} Aug 2023}
+      {Full Stack Software Development Intern}{May 2023 \textbf{--} Aug 2023}
         \resumeItemListStart
             \resumeItem{Devised a Full Stack JavaScript solution, for Service Providers in Auto Industry, to track the status of all services.}
             \resumeItem{Coded React.js for frontend \& connected to PostgreSQL database via Node.js runtime to handle 1K+ customers.}
@@ -229,32 +187,29 @@
   \resumeSubHeadingListEnd
 
 %----------- AWARDS & ACHIEVEMENTS -----------
-
-\section{Awards \& Achievements}
-  \vspace{2pt}
-  \resumeSubHeadingListStart
-    \small{\item{
-        \textbf{High Honors Degree:}{ Awarded to Bachelor alumni who have graduated with a GPA greater than or equal to 3.50 by Boğaziçi University. (Jul 2023)} \\ \vspace{3pt}
-
-        \textbf{TÜBİTAK 2247-C Intern Researcher Scholarship:}{ Awarded to students who take part in research projects carried out by the Scientific and Technological Research Council of Turkey (TÜBİTAK). (Dec 2021 \textbf{--} Jun 2022)} \\ \vspace{3pt}
-    
-        % \textbf{National University Admission Exam (YKS):}{ Ranked $75^{th}$ in Mathematics and Science among ca. 2.3 million candidates with a test score of 489.92/500. (Jul 2018)} \\ \vspace{3pt}
-        
-        \textbf{KYK Outstanding Success Scholarship:}{ Awarded to students who have been ranked in the top 100 on National University Admission Exam by Higher Education Credit and Hostels Institution (KYK). (Sep 2018 \textbf{--} Jun 2023)} \\ \vspace{3pt}
-        
-        % \textbf{Boğaziçi University Success Scholarship:}{ Awarded to students who have been ranked in the top 100 on National University Admission Exam by Boğaziçi University. (Sep 2018 \textbf{--} Jun 2023)} \\ \vspace{3pt}
-        
-        \textbf{Kocaeli Science High School Valedictorian Award:}{ Graduated as the highest ranked student. (Jun 2018)}
-    }}
-  \resumeSubHeadingListEnd
-
-
+% \section{Awards \& Achievements}
+%   \vspace{2pt}
+%   \resumeSubHeadingListStart
+%     \small{\item{
+%         \textbf{High Honors Degree:}{ Awarded to Bachelor alumni who have graduated with a GPA greater than or equal to 3.50 by Boğaziçi University. (Jul 2023)} \\ \vspace{3pt}
+%         \textbf{TÜBİTAK 2247-C Intern Researcher Scholarship:}{ Awarded to students who take part in research projects carried out by the Scientific and Technological Research Council of Turkey (TÜBİTAK). (Dec 2021 \textbf{--} Jun 2022)} \\ \vspace{3pt}
+%         \textbf{KYK Outstanding Success Scholarship:}{ Awarded to students who have been ranked in the top 100 on National University Admission Exam by Higher Education Credit and Hostels Institution (KYK). (Sep 2018 \textbf{--} Jun 2023)} \\ \vspace{3pt}    
+%         \textbf{Kocaeli Science High School Valedictorian Award:}{ Graduated as the highest ranked student. (Jun 2018)}
+%     }}
+%   \resumeSubHeadingListEnd
 
 %----------- PROJECTS -----------
-
 \section{Projects}
     \resumeSubHeadingListStart
       
+      \resumeProjectHeading
+        {\textbf{Intelligent \&Bounds} $|$ \emph{\href{https://github.com/agupt295/INVControl}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{Reorganize the existing iOS app Architecture on Figma, and integrate 2 new features to optimize UX.}
+            \resumeItem{Revamp iOS application using SwiftUI framework, integrating the Order History and Customer Information.}
+            \resumeItem{Integrate the new features with the Node.js backend system to fetch and display the data with 30\% reduced time.}
+          \resumeItemListEnd
+
       \resumeProjectHeading
         {\textbf{INVControl} $|$ \emph{\href{https://github.com/agupt295/INVControl}{\color{blue}GitHub}}}{}
           \resumeItemListStart
@@ -272,71 +227,14 @@
           \resumeItemListEnd
       
       \resumeProjectHeading
-        {\textbf{DS\&A Projects} $|$ \emph{\href{https://github.com/arasgungore/CMPE250-projects}{\color{blue}GitHub}}}{}
+        {\textbf{FastOrder} $|$ \emph{\href{https://github.com/agupt295/FastOrder}{\color{blue}GitHub}}}{}
           \resumeItemListStart
-            \resumeItem{Five Java projects that apply DS\&A concepts such as discrete-event simulation using priority queues, Dijkstra's shortest path algorithm, Prim's algorithm to find the minimum spanning tree, Dinic's algorithm for maximum flow problems, and weighted job scheduling with dynamic programming to real-world problems.}
+            \resumeItem{Devised a Full Stack app, for users, that can connect with 50+ Friends, Like \& Comment on 100+ Posts and make Posts.}
+            \resumeItem{Led a team of 4 students to prepare GUI using Scene Builder with 60\% less time, app functionalities using Java.}
+            \resumeItem{Integrated MySQL DB with JavaFX using JDBC to ensure 30\% efficient data retrieval with 100\% data security.}
           \resumeItemListEnd
       
     \resumeSubHeadingListEnd
-
-
-
-%----------- RELEVANT COURSEWORK -----------
-
-% \section{Relevant Coursework}
-  % \vspace{2pt}
-  % \resumeSubHeadingListStart
-    % \small{\item{
-        % \textbf{Major coursework:}{ Materials Science, Electrical Circuits I-II, Digital System Design, Numerical Methods, Probability Theory, Electronics I-II, Signals and Systems, Electromagnetic Field Theory, Energy Conversion, System Dynamics and Control, Communication Engineering, Pattern Recognition, Introduction to Digital Signal Processing, Introduction to Digital Communications, Introduction to Database Systems, Introduction to Image Processing, Machine Vision} \\ \vspace{3pt}
-        
-        % \textbf{Minor coursework:}{ Discrete Computational Structures, Introduction to Object-Oriented Programming, Data Structures and Algorithms, Computer Organization, Fundamentals of Software Engineering}
-    % }}
-  % \resumeSubHeadingListEnd
-
-
-
-%----------- CERTIFICATES -----------
-
-% \section{Certificates}
-  % \resumeSubHeadingListStart
-    
-    % \resumeOrganizationHeading
-      % {Procter \& Gamble VIA Certificate Program}{Feb 2022}{Project Management and Personal Productivity}
-    
-  % \resumeSubHeadingListEnd
-
-
-
-%----------- ORGANIZATIONS -----------
-
-% \section{Organizations}
-  % \resumeSubHeadingListStart
-    
-    % \resumeOrganizationHeading
-      % {Institute of Electrical and Electronics Engineers (IEEE)}{Feb 2022 -- Present}{Student Member}
-    
-  % \resumeSubHeadingListEnd
-
-
-
-%----------- HOBBIES -----------
-
-% \section{Hobbies}
-  % \resumeSubHeadingListStart
-    % \small{\item{Basketball, Swimming, Fitness, Eight-ball, Horology}}
-  % \resumeSubHeadingListEnd
-
-
-
-%----------- REFERENCES -----------
-
-% \section{References}
-  % \vspace{2pt}
-  % \resumeSubHeadingListStart
-    % \item{References available upon request.}
-  % \resumeSubHeadingListEnd
-
-
 
 %-------------------------------------------
 \end{document}
