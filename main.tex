@@ -74,14 +74,22 @@
   \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeEducationHeading}[6]{
+% \newcommand{\resumeEducationHeading}[6]{
+%   \vspace{-2pt}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} & #2 \\
+%       \textit{\small#3} & \textit{\small #4} \\
+%       \textit{\small#5} & \textit{\small #6} \\
+%     \end{tabular*}\vspace{-5pt}
+% }
+\newcommand{\resumeEducationHeading}[5]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-      \textit{\small#5} & \textit{\small #6} \\
+      \textit{\small#3} & \textit{\small #4, #5} \\
     \end{tabular*}\vspace{-5pt}
 }
+
 
 \newcommand{\resumeProjectHeading}[2]{
   \vspace{-2pt}\item
@@ -129,13 +137,13 @@
 \resumeSubHeadingListStart
   \resumeEducationHeading
     {University of Illinois Urbana-Champaign}{Urbana, Illinois}
-    {M.CS. in Computer Science}{Aug 2024 -- Dec 2025}{GPA: 3.96/4.00}{}
+    {M.CS. in Computer Science}{Aug 2024 -- Dec 2025}{}{}
 \resumeSubHeadingListEnd
-\vspace{-0.4cm} % Adjust vertical space as needed
+\vspace{-0.5cm} % Adjust vertical space as needed
 \resumeSubHeadingListStart
   \resumeEducationHeading
     {Arizona State University}{Tempe, Arizona}
-    {B.S. in Computer Science}{Aug 2020 -- May 2024}{GPA: 3.96/4.00}{}
+    {B.S. in Computer Science}{GPA: 3.96/4.00}{Aug 2020 -- May 2024}{}
 \resumeSubHeadingListEnd
 
 %----------COURSES---------------
